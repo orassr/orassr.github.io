@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Chaveiro Documentation</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="img/favicon.png">
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        
+        <link href="css/style.css" rel="stylesheet">
+        
+        <!-- Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,800,300' rel='stylesheet' type='text/css'>
+        
+    </head>
+    <body>
+        
+        <header class="navbar navbar-inverse" role="banner">
+          <div class="container">
+            <div class="navbar-header float-left d-inline-block">
+                <a href="#">
+                    <img src="img/logo.png"/>  
+                </a>
+            </div>
+            
+            <nav class="float-right d-inline-block" role="navigation">
+                <ul class="nav navbar-right">
+                    <li>
+                        <a href="#masthead" class="bg-transparent px-3 py-0">Back to top</a>
+                    </li>
+                    <li>
+                        <a href="#credits" class="bg-transparent px-3 py-0">Credits</a>
+                    </li>
+                </ul>
+            </nav>
+          </div>
+        </header>
+
+        <div id="masthead">  
+          <div class="container text-center">
+              <div class="row">
+                <div class="col-md-12">
+                  <h1>Chaveiro</h1>
+                    <p class="lead">HTML5/CSS3-Bootstrap-SASS Template Documentation</p>
+                </div>
+                 
+              </div> 
+          </div><!-- /cont -->
+        </div>
+
+        <!-- Begin Body -->
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3" id="leftCol">
+                        <nav class="navbar sticky-top navbar-light bg-light mt-5">
+                            <div class="navbar-collapse">
+                                <ul class="nav flex-column py-3" id="sidebar">
+                                    <li><a href="#Info">Template Information</a></li>
+                                    <li><a href="#html-structure">HTML Structure</a></li>
+                                    <li><a href="#css-linking">CSS Linking</a></li>
+                                    <li><a href="#javascript">Javascript</a></li>
+                                    <li><a href="#navigation">Navigation</a></li>
+                                    <li><a href="#slider">Slider</a></li>
+                                    <li><a href="#color">Color Variation</a></li>
+                                    <li><a href="#fonts">Fonts & Icons</a></li>
+                                    <li><a href="#credits">Source & Credits</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>  
+                    <div class="col-md-9">
+                        
+                        <div class="col-lg-12 py-5" id="Info">
+                            <h2>Template Information</h2>
+                                <h4>Description :</h4>
+                                <ul>
+                                    <li>
+                                        Chaveiro is a creative, elegant, modern, clean and Responsive HTML5/CSS3 <strong>Locksmith</strong> Template based on Bootstrap with <strong>SASS</strong>. Compatible with Desktop, Laptop, Tablet, Mobile or any device. Chaveiro is simple and clean design. All files are clearly organised. We believe it will be easy to use and edit them.
+                                    </li>
+                                </ul>
+
+                                <h4>Content Mapping :</h4>
+                                <ul>
+                                    <li>Template root has <strong>12 .html</strong> files and <strong>3 folders</strong></li>
+                                    <li>Stylesheets <strong>(CSS files)</strong> of this template are placed in <strong>assets/css</strong> folder.  <strong>style.css</strong> file for template main/custom style sheet.</li>
+                                    <li>All Images are in <strong>assets/images</strong> folder.</li>
+                                    <li>And all Javascripts files are in <strong>assets/js</strong> folder.</li>
+                                </ul>
+                        </div>
+                        
+                        <!-- HTML Structure -->
+                        <div class="col-lg-12 py-5" id="html-structure">
+                            <h2>HTML Structure</h2>
+                            <p>
+                                
+                                The template is based on <a href="http://getbootstrap.com/">Bootstrap 4</a> the world's most popular front-end component library for developing responsive, mobile-first projects on the web.
+                                <br>
+                                <br>
+                                Bootstrap includes a responsive, mobile first fluid grid system that appropriately scales up to 12 columns as the device or viewport size increases. It includes predefined classes for easy layout options, as well as powerful mixins for generating more semantic layouts.
+                                
+                                <br>
+                                <br>
+                                Create a .container (fixed-width) or .container-fluid (full-width) for proper alignment and padding, then create .row and add columns with appropriate device name (xs, sm, md, lg) and grid number (2, 4, 6, 12).
+                                <br>
+                                <br>
+                                <strong>For full documentation, please visit Bootstrap 4 site: <a href="https://getbootstrap.com/docs/4.1/getting-started/download/">https://getbootstrap.com/docs/4.1/getting-started/download/</a></strong>
+                            </p>
+
+                            <div class="col-lg-12 highlight box mb-3">
+<pre><code>
+&lt;section id="" class=""&gt;
+    &lt;div class="container"&gt;
+        ...
+        ...
+    &lt;/div&gt;
+&lt;/section&gt;
+</code></pre>
+                            </div>
+                        </div>
+
+                         
+                         <!-- CSS linking-->
+                        
+                        <div class="col-lg-12 py-5" id="css-linking">
+                            <h2>CSS Linking On page</h2>
+                            <p>
+                                
+                                Well organized and labeled CSS files is one of my priorities.
+                                <br>
+                                These are the CSS file you're be using in the template:
+                                <br>
+                                
+                            </p>
+
+                            <div class="col-lg-12 highlight box mb-3">
+                                
+                                <ul>
+                                    <li>
+                                        Inside page head tag you only have to link this css (assets/css/style.css). <br>
+										<strong>all css files are imported on style.css file</strong>.
+                                    </li>
+                                    <li>
+                                        <strong>style.css </strong> (Elements such as titles, sections, backgrounds, column styles, etc... css are on this file)
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                        
+                         <!-- JS Files Including -->
+                        
+                        
+                        <div class="col-lg-12 py-5" id="javascript">
+                            <h2>Javascript</h2>
+                            <p>
+                                
+                               jQuery - is a Javascript library that greatly reduces the amount of code that you must write.
+                                <br>
+                                For more information, please visit <a href="http://www.jquery.com/">http://www.jquery.com/</a>
+                                <br>
+                                <br>
+                                The initialization of the elements, libs and features is made by the file <strong>custom.js</strong>, in the js folder.
+                            </p>
+
+                            
+                        </div>
+
+
+                        <!-- Background Iamges Adding method-->
+                        <div class="col-lg-12 py-5" id="navigation">
+                            <h2>Navigation</h2>
+                            <p>Open any .html file and see coding pattern for our navigation. One style for header. In Inner page has no top bar section.</p>
+                            <br>                            
+                            <div class="col-lg-12 highlight box mb-3">
+
+<h6>Header 1</h6> 
+<pre><code>		&lt;header class=&quot;header&quot;&gt;
+    &lt;div class=&quot;top_bar&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;div class=&quot;top_bar_inner&quot;&gt;
+                &lt;div class=&quot;header_social&quot;&gt;
+                    &lt;ul class=&quot;top_social&quot;&gt;
+                        &lt;li class=&quot;facebook&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;ion-social-facebook&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class=&quot;twitter&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;ion-social-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class=&quot;dribbble&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;ion-social-dribbble-outline&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class=&quot;instagram&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;ion-social-instagram-outline&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class=&quot;linkedin&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;ion-social-linkedin&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;header_info&quot;&gt;
+                    &lt;div class=&quot;schedule&quot;&gt;
+                        &lt;img src=&quot;assets/images/clock.png&quot; alt=&quot;schedule&quot;&gt; &lt;div&gt;Monday - Friday &lt;span&gt;(9.00am-9.00pm)&lt;/span&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;phone&quot;&gt;
+                        &lt;img src=&quot;assets/images/phone.png&quot; alt=&quot;phone&quot;&gt;
+                        &lt;div&gt;&lt;span&gt;Call Us Anytime&lt;/span&gt;&lt;br&gt;(+123)987.654.32&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+        
+    &lt;div class=&quot;middle_bar&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;div class=&quot;middle_bar_inner&quot;&gt;
+                &lt;div class=&quot;logo&quot;&gt;
+                    &lt;a href=&quot;index.html&quot;&gt;&lt;img src=&quot;assets/images/logo.png&quot; alt=&quot;logo&quot;&gt;&lt;/a&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&quot;header_right_part&quot;&gt;
+                    &lt;div class=&quot;mainnav&quot;&gt;
+                        &lt;ul class=&quot;main_menu&quot;&gt;
+                            &lt;li class=&quot;menu-item menu-item-has-children active&quot;&gt;&lt;a href=&quot;index.html&quot;&gt;Home&lt;/a&gt;
+                                &lt;ul class=&quot;sub-menu&quot;&gt;
+                                    &lt;li class=&quot;menu-item&quot;&gt;&lt;a href=&quot;index-2.html&quot;&gt;Home Two&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                            &lt;li class=&quot;menu-item&quot;&gt;&lt;a href=&quot;about.html&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+                            &lt;li class=&quot;menu-item menu-item-has-children&quot;&gt;&lt;a href=&quot;services.html&quot;&gt;Services&lt;/a&gt;
+                                &lt;ul class=&quot;sub-menu&quot;&gt;
+                                    &lt;li class=&quot;menu-item&quot;&gt;&lt;a href=&quot;service-details.html&quot;&gt;Service Details&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                            &lt;li class=&quot;menu-item menu-item-has-children&quot;&gt;&lt;a href=&quot;#&quot;&gt;Blog&lt;/a&gt;
+                                &lt;ul class=&quot;sub-menu&quot;&gt;
+                                    &lt;li class=&quot;menu-item&quot;&gt;&lt;a href=&quot;blog-1.html&quot;&gt;Blog One&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li class=&quot;menu-item&quot;&gt;&lt;a href=&quot;blog-2.html&quot;&gt;Blog Two&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li class=&quot;menu-item&quot;&gt;&lt;a href=&quot;blog-details.html&quot;&gt;Blog Details&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                            &lt;li class=&quot;menu-item menu-item-has-children&quot;&gt;&lt;a href=&quot;#&quot;&gt;Pages&lt;/a&gt;
+                                &lt;ul class=&quot;sub-menu&quot;&gt;
+                                    &lt;li class=&quot;menu-item&quot;&gt;&lt;a href=&quot;team.html&quot;&gt;Team&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li class=&quot;menu-item&quot;&gt;&lt;a href=&quot;faq.html&quot;&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                            &lt;li class=&quot;menu-item menu-item-has-children&quot;&gt;&lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
+                                &lt;ul class=&quot;sub-menu&quot;&gt;
+                                    &lt;li class=&quot;menu-item&quot;&gt;&lt;a href=&quot;contact-1.html&quot;&gt;Contact One&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li class=&quot;menu-item&quot;&gt;&lt;a href=&quot;contact-2.html&quot;&gt;Contact Two&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;header_search&quot;&gt;
+                        &lt;form class=&quot;search_form&quot; action=&quot;search.php&quot;&gt;
+                            &lt;input type=&quot;text&quot; name=&quot;search&quot; class=&quot;keyword form-control&quot; placeholder=&quot;Search...&quot; /&gt;
+                            &lt;button type=&quot;submit&quot; class=&quot;form-control-submit&quot;&gt;&lt;i class=&quot;ion-ios-search&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+                        &lt;/form&gt;
+                    &lt;/div&gt;
+                        
+                    &lt;!-- mobile menu toggle button --&gt;
+                    &lt;div class=&quot;aside_open&quot;&gt;&lt;i class=&quot;ion-ios-keypad&quot;&gt;&lt;/i&gt;&lt;/div&gt;
+                    &lt;button class=&quot;ma5menu__toggle&quot; type=&quot;button&quot;&gt;
+                        &lt;i class=&quot;ion-android-menu&quot;&gt;&lt;/i&gt;
+                    &lt;/button&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/header&gt;
+</code></pre>
+<br>
+<br>
+<h6>Header 2</h6> 
+<code><pre>		&lt;header class=&quot;header type_2&quot;&gt;
+    &lt;div class=&quot;top_bar&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;div class=&quot;top_bar_inner&quot;&gt;
+                &lt;div class=&quot;header_social&quot;&gt;
+                    &lt;ul class=&quot;top_social&quot;&gt;
+                        &lt;li class=&quot;facebook&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;ion-social-facebook&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class=&quot;twitter&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;ion-social-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class=&quot;dribbble&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;ion-social-dribbble-outline&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class=&quot;instagram&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;ion-social-instagram-outline&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class=&quot;linkedin&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;ion-social-linkedin&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;header_info&quot;&gt;
+                    &lt;div class=&quot;schedule&quot;&gt;
+                        &lt;img src=&quot;assets/images/clock.png&quot; alt=&quot;schedule&quot;&gt; &lt;div&gt;Monday - Friday &lt;span&gt;(9.00am-9.00pm)&lt;/span&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;phone&quot;&gt;
+                        &lt;img src=&quot;assets/images/phone.png&quot; alt=&quot;phone&quot;&gt;
+                        &lt;div&gt;&lt;span&gt;Call Us Anytime&lt;/span&gt;&lt;br&gt;(+123)987.654.32&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+        
+    &lt;div class=&quot;middle_bar&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;div class=&quot;middle_bar_inner&quot;&gt;
+                &lt;div class=&quot;logo&quot;&gt;
+                    &lt;a href=&quot;index.html&quot;&gt;&lt;img src=&quot;assets/images/logo3.png&quot; alt=&quot;logo&quot;&gt;&lt;/a&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&quot;header_right_part&quot;&gt;
+                    &lt;div class=&quot;mainnav&quot;&gt;
+                        &lt;ul class=&quot;main_menu&quot;&gt;
+                            &lt;li class=&quot;menu-item menu-item-has-children active&quot;&gt;&lt;a href=&quot;index.html&quot;&gt;Home&lt;/a&gt;
+                                &lt;ul class=&quot;sub-menu&quot;&gt;
+                                    &lt;li class=&quot;menu-item active&quot;&gt;&lt;a href=&quot;index-2.html&quot;&gt;Home Two&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                            &lt;li class=&quot;menu-item&quot;&gt;&lt;a href=&quot;about.html&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+                            &lt;li class=&quot;menu-item menu-item-has-children&quot;&gt;&lt;a href=&quot;services.html&quot;&gt;Services&lt;/a&gt;
+                                &lt;ul class=&quot;sub-menu&quot;&gt;
+                                    &lt;li class=&quot;menu-item&quot;&gt;&lt;a href=&quot;service-details.html&quot;&gt;Service Details&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                            &lt;li class=&quot;menu-item menu-item-has-children&quot;&gt;&lt;a href=&quot;#&quot;&gt;Blog&lt;/a&gt;
+                                &lt;ul class=&quot;sub-menu&quot;&gt;
+                                    &lt;li class=&quot;menu-item&quot;&gt;&lt;a href=&quot;blog-1.html&quot;&gt;Blog One&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li class=&quot;menu-item&quot;&gt;&lt;a href=&quot;blog-2.html&quot;&gt;Blog Two&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li class=&quot;menu-item&quot;&gt;&lt;a href=&quot;blog-details.html&quot;&gt;Blog Details&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                            &lt;li class=&quot;menu-item menu-item-has-children&quot;&gt;&lt;a href=&quot;#&quot;&gt;Pages&lt;/a&gt;
+                                &lt;ul class=&quot;sub-menu&quot;&gt;
+                                    &lt;li class=&quot;menu-item&quot;&gt;&lt;a href=&quot;team.html&quot;&gt;Team&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li class=&quot;menu-item&quot;&gt;&lt;a href=&quot;faq.html&quot;&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                            &lt;li class=&quot;menu-item menu-item-has-children&quot;&gt;&lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;
+                                &lt;ul class=&quot;sub-menu&quot;&gt;
+                                    &lt;li class=&quot;menu-item&quot;&gt;&lt;a href=&quot;contact-1.html&quot;&gt;Contact One&lt;/a&gt;&lt;/li&gt;
+                                    &lt;li class=&quot;menu-item&quot;&gt;&lt;a href=&quot;contact-2.html&quot;&gt;Contact Two&lt;/a&gt;&lt;/li&gt;
+                                &lt;/ul&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;open_search&quot;&gt;
+                        &lt;button type=&quot;submit&quot; class=&quot;open_button&quot;&gt;&lt;i class=&quot;ion-ios-search&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+                        
+                        &lt;!-- mobile menu toggle button --&gt;
+                        &lt;div class=&quot;aside_open&quot;&gt;&lt;i class=&quot;ion-ios-keypad&quot;&gt;&lt;/i&gt;&lt;/div&gt;
+                        &lt;button class=&quot;ma5menu__toggle&quot; type=&quot;button&quot;&gt;
+                            &lt;i class=&quot;ion-ios-keypad&quot;&gt;&lt;/i&gt;
+                        &lt;/button&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;header_search&quot;&gt;
+                        &lt;form class=&quot;search_form&quot; action=&quot;search.php&quot;&gt;
+                            &lt;input type=&quot;text&quot; name=&quot;search&quot; class=&quot;keyword form-control&quot; placeholder=&quot;Search...&quot; /&gt;
+                            &lt;button type=&quot;submit&quot; class=&quot;form-control-submit&quot;&gt;&lt;i class=&quot;ion-ios-search&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+                        &lt;/form&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/header&gt; 
+</code></pre>   
+                                
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 py-5" id="slider">
+                        <h2>Slider Section</h2>
+                            
+                            <div class="col-lg-12 highlight box mb-3">
+<h6>BG Image Slider</h6>
+<pre><code>                &lt;div class=&quot;slider_slick_1&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;
+        &lt;div class=&quot;slider&quot; style=&quot;background-image:url(assets/images/slider/slider_bg1.jpg)&quot;&gt;
+            &lt;div class=&quot;container&quot;&gt;
+                &lt;div class=&quot;row&quot;&gt;
+                    &lt;div class=&quot;col-lg-7&quot;&gt;
+                        &lt;div class=&quot;slide_content&quot;&gt;
+                            &lt;h3 class=&quot;sub_heading&quot;&gt;Urgent Service: &lt;span&gt;+33 123 456 789&lt;/span&gt;&lt;/h3&gt;
+                            &lt;h2 class=&quot;heading&quot;&gt;Emergency &lt;span&gt;Locksmith&lt;/span&gt; service available 24/7&lt;/h2&gt;
+                            &lt;p class=&quot;desc&quot;&gt;We offer comprehensive services to the industrial &lt;br/&gt;
+                                residential &amp; automotive sectors. &lt;/p&gt;
+                            &lt;div class=&quot;slider_button&quot;&gt;
+                                &lt;a href=&quot;#&quot; class=&quot;button alt&quot;&gt;Learn More&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class=&quot;col-lg-5&quot;&gt;
+                        &lt;div class=&quot;slide_content_img&quot;&gt;
+                            &lt;img src=&quot;assets/images/slider/man1.png&quot; alt=&quot;&quot;&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+ &lt;/div&gt;
+</code></pre>
+                            </div>
+                            <div class="col-lg-12 highlight box mb-3">
+                                <h6>Team SLider</h6>
+<pre><code>					&lt;div class=&quot;team_slick&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;
+        &lt;div class=&quot;teambox&quot;&gt;
+            &lt;img src=&quot;assets/images/team/1.png&quot; alt=&quot;&quot;&gt;
+            &lt;div class=&quot;teambox_inner&quot;&gt;
+                &lt;div class=&quot;team_social&quot;&gt;
+                    &lt;div class=&quot;share&quot;&gt;&lt;i class=&quot;ion-android-share-alt&quot;&gt;&lt;/i&gt;&lt;/div&gt;
+                    &lt;ul&gt;
+                        &lt;li class=&quot;facebook&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;ion-social-facebook&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class=&quot;twitter&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;ion-social-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class=&quot;instagram&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;ion-social-instagram-outline&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class=&quot;linkedin&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;ion-social-linkedin-outline&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;teambox_intro&quot;&gt;
+                    &lt;h6&gt;Locksmith&lt;/h6&gt;
+                    &lt;h5&gt;Brandon Graham&lt;/h5&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+                        &lt;/div&gt;
+</code></pre>
+                                
+                                <p>You can add more slide by following this coding pattern. Then change Image. </p>
+                                <p><b>N.B.:</b> Slider control option API in custom.js. And you can add/remove/edit api by following owl carousel, mention at bellow.</p>
+                                
+                                                            </div>
+                        </div>
+
+
+                            
+                        
+                        <div class="col-lg-12 py-5" id="color">
+                            <h2>Color Variation</h2>
+                            <p>We have predefined thirteen color and also black and white color.</p>
+                            <ul>
+                                <li>First color class name is <b>primary-color</b></li>
+                                <li>Second color class name is <b>second-color</b></li>
+                                and also 
+                                <li>Black color class name is <b>black-color</b></li>
+                                <li>White color class name is <b>white-color</b></li>
+                                <li>White color class name is <b>dark-color</b></li>
+                                <li>White color class name is <b>facebook-color</b></li>
+                                <li>White color class name is <b>twitter-color</b></li>
+                                <li>White color class name is <b>dribbble-color</b></li>
+                                <li>White color class name is <b>instagram-color</b></li>
+                                <li>White color class name is <b>skype-color</b></li>
+                                <li>White color class name is <b>linkedin-color</b></li>
+                                <li>White color class name is <b>rss-color</b></li>
+                                <li>White color class name is <b>pinterest-color</b></li>
+                            </ul>
+                            <strong>You can use these class in any div or section to get color according to this class.</strong>
+                            <strong>You can change color code.</strong>
+<strong>Try yourself to use/change classname</strong><br/>
+<strong>N.B.: Please observe carefully our HTML code to see color variation output. Such as <b>index2.html</b></strong><br/>
+<b style="color:#9348eb;">If you are familiar or know SASS, then you can do easily color compile in variable.scss file. Otherwise change color in style.css file</b>
+                        </div>
+
+                
+
+                        <!-- Font Using-->
+                        <div class="col-lg-12 py-5" id="fonts">
+                            <h2>Google Fonts</h2>
+                            <p>Open <strong>style.css in any text editor from css</strong> folder. And see imported Google font link. 
+                            </p>
+                            <div class="col-lg-12 highlight box mb-3">
+                                <b><pre>
+<code>@import url('https://fonts.googleapis.com/css?family=Mulish:wght@400;500;600;700;800&family=Nunito+Sans:wght@400;600;700;800;900&display=swap');</code>
+                                </pre></b>
+                                    
+                            </div>
+                            <p>We are using Google font and other open source font. You can change here font link that you want. Then need to change font-family at that div / tag/ section class in style.css file.</p>
+                            <a class="bg-danger text-light px-2" href="https://fonts.google.com/">Google Font Link</a>
+                        </div>
+
+
+                        <!-- Icon Font Using-->
+                        <div class="col-lg-12 py-5" id="icons">
+                            <h2>Icons</h2>
+                            <p> We are using <strong>IonIcons</strong></p>
+                            <p>These font css file in this directory: <strong>css\fonts\ionicons\css\ionicon.css</strong></p>
+                            <p class="bg-danger text-light px-2">Use icon class name from above css files.</p>
+                            <br>
+                            <p>
+                                HTML Markup:
+                            </p>
+                            
+                            <div class="col-lg-12 highlight box mb-3">
+                                <pre><code><span>&lt;i class="ion-ios-send"&gt;&lt;i&gt;</span></code></pre>
+                            </div>
+                            <p>You can use another icon you like. Then keep font in fonts family. And keep icon font css in css folder like ionicon.css</p>
+                            <p>Then use font in HTML as per using method of that font.</p>
+                            If you need more information about these icon sets, please visit this sites: <a href="http://ionicons.com/">IonIcons</a>
+                        </div>
+                        
+
+                        
+                        <!--Source & Credits-->
+                        <div class="col-lg-12 py-5" id="credits">
+                            <h2>Source & Credits</h2>
+                            <p>
+                                Fonts:<br>
+                                <strong>&nbsp;&nbsp; &nbsp;Google Web Fonts</strong> - <a href="https://fonts.google.com/">Link</a><br>
+                                <strong>&nbsp;&nbsp; &nbsp;Ionicons</strong> - <a href="http://ionicons.com/">Link</a>
+                                <br>
+                                <br>
+
+                                Scripts:<br>
+                                <strong>&nbsp;&nbsp; &nbsp;jQuery </strong>- <a href="http://www.jquery.com/">Go Site</a><br>
+                                <strong>&nbsp;&nbsp; &nbsp;Bootstrap Framework</strong> - <a href="http://getbootstrap.com/">Go Site</a><br>
+                                <strong>&nbsp;&nbsp; &nbsp;OwlCarousel 2</strong> - <a href="https://owlcarousel2.github.io/OwlCarousel2/docs/started-welcome.html">Go Site</a><br>
+                                <strong>&nbsp;&nbsp; &nbsp;Select 2 </strong>- <a href="https://select2.org/">Go Site</a><br/>
+                                <strong>&nbsp;&nbsp; &nbsp;WOW </strong>- <a href="https://wowjs.uk/">Go Site</a>
+                            </p>
+                            <br>
+                            <h5>Thank you again for purchase our template!</h5>
+                        </div>
+                    </div> 
+            </div>
+            <div class="highlight box mb-3 text-center">
+                <h6>Chaveiro - All rights reserved by <i><a href="https://themeforest.net/user/wpthemebooster/portfolio">wpthemebooster</a></i></h6>
+                <p>Created on: 30-09-2020</p>
+            </div>
+        </div>
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        
+                
+
+
+
+
+
+
+
+
+
+        
+        <!-- JavaScript jQuery code from Bootply.com editor -->
+        
+        <script type='text/javascript'>
+        
+            $(document).ready(function() {
+
+               $('.nav a').click(function (e) {
+                    var linkHref = $(this).attr("href");
+                    var idElement = linkHref.substr(linkHref.indexOf("#"));
+                    $('html, body').animate({
+                        scrollTop: $(idElement).offset().top
+                    }, 1000);
+                    return false;
+                });
+
+            });
+        
+        </script>
+        
+    </body>
+</html>
